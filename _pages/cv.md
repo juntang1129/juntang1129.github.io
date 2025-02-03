@@ -45,11 +45,11 @@ redirect_from:
 </div>
 <div style="padding-left: 20px;">
   <ul style="margin-top: 0;">
-    <li><strong>GPA:</strong> 3.73/4.00</li>
+    <li><strong>GPA:</strong> 3.8/4.0</li>
     <li><strong>Honors:</strong>
       <ul>
-        <li>Dean's List with Distinction: Spring 2024</li>
-        <li>Dean’s List: Fall 2023</li>
+        <li>Dean's List with Distinction: Fall 2024; Spring 2024</li>
+        <li>Dean's List: Fall 2023</li>
       </ul>
     </li>
     <li><strong>Courses:</strong>
@@ -402,4 +402,3 @@ redirect_from:
     </ul>
   </li>
 </ul>
-
