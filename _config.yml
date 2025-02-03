@@ -13,7 +13,7 @@ title                    : "Juntang Wang"
 title_separator          : "-"
 name                     : &name "王俊棠 (JUN TANG WANG)"
 description              : &description "王俊棠"
-url                      : https://tang.qqgjyx.org # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://tang.qqgjyx.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "qqgjyx/qqgjyx.github.io"
 
