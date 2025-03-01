@@ -15,7 +15,7 @@ name                     : &name "王俊棠 (JUN TANG WANG)"
 description              : &description "王俊棠"
 url                      : https://tang.qqgjyx.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "qqgjyx/qqgjyx.github.io"
+repository               : "juntang1129/juntang1129.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
