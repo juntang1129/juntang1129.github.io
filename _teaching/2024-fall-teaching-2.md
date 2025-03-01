@@ -13,7 +13,7 @@ location: "Durham, NC"
     <em>Instructor: Prof. Xiaobai Sun</em>
   </div>
 </div>
-<img src="../images/cs521.png" alt="CS521 Course" style="width: 100%; margin: 10px 0;">
+<img src="../images/teaching/cs521.png" alt="CS521 Course" style="width: 100%; margin: 10px 0;">
 <div style="padding-left: 20px;">
   <ul style="margin-top: 0;">
     <li>Pioneered first UTA for graduate course, from DKU at Duke. </li>

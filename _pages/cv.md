@@ -30,6 +30,7 @@ redirect_from:
 </div>
 
 ## Education
+
 <hr>
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -71,8 +72,15 @@ redirect_from:
   </ul>
 </div>
 
+## Publications
+
+<hr>
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 ## Research experience
+
 <hr>
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -170,7 +178,6 @@ redirect_from:
   </ul>
 </div>
 
-
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>RINDSTU 393 – Superconductivity</strong><br>
@@ -190,7 +197,15 @@ redirect_from:
   </ul>
 </div>
 
+## Teaching
+
+<hr>
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single.html %}
+  {% endfor %}</ul>
+
 ## Skills
+
 <hr>
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
@@ -247,17 +262,8 @@ redirect_from:
 
 </div>
 
-[//]: # (## Publications)
-
-[//]: # (<hr>)
-
-[//]: # (  <ul>{% for post in site.publications reversed %})
-
-[//]: # (    {% include archive-single-cv.html %})
-
-[//]: # (  {% endfor %}</ul>)
-
 ## Work experience
+
 <hr>
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -329,6 +335,7 @@ redirect_from:
 </div>
 
 ## Leadership and Service
+
 <hr>
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -381,23 +388,17 @@ redirect_from:
   </ul>
 </div>
 
-  
-## Teaching
-<hr>
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single.html %}
-  {% endfor %}</ul>
-
 ## Additional Information
+
 <hr>
 <ul>
   <li><strong>Interests:</strong> gym, guitar, piano, cooking, bass, ACG, films</li>
   <li><strong>Personal Projects:</strong>
     <ul>
+      <li>Developed <a href="https://qqgjyx.com/pysgtsnepi" target="_blank">pysgtsnepi</a>, a Python wrapper for the SG-t-SNE-Π algorithm enabling dimensionality reduction and visualization.</li>
+      <li>Created <a href="https://qqgjyx.com/mheatmap" target="_blank">mheatmap</a>, a Python package for advanced heatmap visualization and matrix analysis with features like mosaic heatmaps and spectral reordering.</li>
       <li>Planning an EEG signal processing project, secured SEED-V dataset from Shanghai Jiao Tong University; Planning a HSI analysis project, secured WU datasets from Wuhan University.</li>
-      <li>Innovatively bypassed intranet restrictions using Fast Reverse Proxy (FRP), implemented game servers (Terraria, Sid Meier's: Civilization VI), P2P connection and remote desktop functionalities.</li>
-      <li>Contributed to establishment and maintenance of supercomputer-based Linux server for quantum physics calculations.</li>
-      <li>Co-developed a specialized WeChat micro-app for auction platform.</li>
+      <li>Contributed to establishment and maintenance of HPC-based Linux server for quantum physics calculations.</li>
       <li>Implemented and refined edge AI generative tools, including Stable Diffusion versions, Ollama, and enhanced UI for both.</li>
     </ul>
   </li>
