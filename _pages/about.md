@@ -9,22 +9,22 @@ redirect_from:
 
 ## Juntang Wang
 
-A junior student at **Duke Kunshan University (DKU) & Duke University**, majoring in **Applied Math & Computational Science (Computer Science)**.
+A rising senior at DKU & Duke University, majoring in Applied Math & CS.
 
 ---
 
 ## Research Interests
 
-- Brain-Computer Interface (BCI) and Human-Computer Interaction (HCI)
-- Interdisciplinary studies across Neuroscience and Applied Math (Computer Science)
+- Brain-Computer Interface (BCI) and Computational Neuroscience
+- Numerical Analysis and High Performance Computing
 - Optical and Photonic dynamics
 
 ---
 
-## Personal Chatbox
+<!-- ## Personal Chatbox
 
-<iframe src="http://llama.qqgjyx.com" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="http://llama.qqgjyx.com" width="100%" height="500" style="border:none;"></iframe> -->
 
----
+<!-- --- -->
 
 I hope you find this information useful and enjoy exploring my site!

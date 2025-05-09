@@ -1,5 +1,5 @@
 ---
-title: "[Proceeding] Graph-affiliated Unsupervised Segmentation Assisted Simple Neural Network"
+title: "GraMixC: Multi-resolution Graph-based Clustering for Downstream Prediction"
 collection: publications
 category: conferences
 permalink: /publication/2025-03-10-paper-title-number-2
@@ -7,17 +7,20 @@ excerpt: ''
 date: 2025-03-10
 venue: '[Proceeding, TBD] 2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)'
 paperurl: 'http://tang.qqgjyx.com/files/paper2.pdf'
-citation: '[TBD] <b>Juntang Wang</b>, Runkun Guo, Dongmian Zou, Shixin Xu (2025). &quot;Graph-affiliated Unsupervised Segmentation Assisted Simple Neural Network.&quot; <i>2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)</i>. 1(1).'
+citation: '[TBD] <b>Juntang Wang</b>, Hao Wu, Runkun Guo, Yihan Wang, Dongmian Zou, Shixin Xu (2025). &quot;GraMixC: Multi-resolution Graph-based Clustering for Downstream Prediction.&quot; <i>2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)</i>. 1(1).'
 ---
 
-High-throughput 16S rRNA-seq data, complemented by detailed cultivation information, constitutes a critical resource in bacterial research with promising implications for biomedical applications such as fecal microbiota transplantation. However, the inherent high dimensionality and substantial costs associated with 16S rRNA-seq data constrain its full utility. In this paper, we introduce a novel approach—graph-affiliated unsupervised segmentation-assisted simple neural network (GASNN)—designed to analyze 16S rRNA-seq data efficiently. In a proof-of-concept application involving the prediction of cultivation media temperature, the GASNN model achieved significant performance enhancements over a traditional simple neural network (SNN). Further experiments across various tasks consistently demonstrated that GASNN improves the performance of SNN models. Nevertheless, a notable limitation of the proposed approach is that its benefits may diminish as the network architecture deepens, thereby impeding its ability to reveal the intrinsic manifold structure of the data.
+Humans are born with an ability to group objects by similarity—a cognitive mechanism that clustering seeks to replicate.
+By community detection at optimal resolution parameters, recent work produces configurations—valid hierarchical clustering at each scale—all without any labels.
+In this paper, we characterize configurations, and identify behaviors similar to them from the register tokens in Vision Transformers.
+Configurations can be learned via unsupervised or self-supervised processes, but their selection or mixing is downstream task- and input-specific;
+Compared to register tokens, configurations demonstrate less redundancy and require no ad hoc selection.
+Utilizing these properties, we propose GraMixC, a plug-and-play module that extracts configurations, align them with our novel Reverse Merge/Split (RMS) methodology, and fuse them through attention heads, before passed back for any downstream predictor.
+On the DSNI 16S rRNA cultivation task, GraMixC boosts coefficient of determination from 0.6 to 0.9—establishing a new state of the art.
+We further validate GraMixC with standard tabular models on other benchmarks, where it consistently outperforms single-resolution and static-feature baselines.
 
-![Figure 1: GASNN model architecture showing the graph-affiliated unsupervised segmentation component](../images/publications/gasnn_model_architecture.png)
+![Figure 1: GraMixC model architecture](../images/publications/gmc_model_architecture.png)
 
-![Figure 2a: Ablation study results on DSMZ temperature prediction task](../images/publications/gasnn_dsmz_temp_ablation.png)
+![Figure 2: Regression performance for DSNI prediction task](../images/publications/gmc_regression.png)
 
-![Figure 2b: Temperature regression performance comparison between GASNN and baseline models](../images/publications/gasnn_dsmz_temp_regression.png)
-
-![Figure 3a: t-SNE visualization of MNIST feature embeddings](../images/publications/gasnn_mnist_tsne.png)
-
-![Figure 3b: Confusion matrix showing classification performance on MNIST dataset](../images/publications/gasnn_mnist_confusion_matrix.png)
+![Figure 3: Ablation study results on DSNI prediction task](../images/publications/gmc_ablation.png)
