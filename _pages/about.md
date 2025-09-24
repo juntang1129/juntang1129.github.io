@@ -9,7 +9,7 @@ redirect_from:
 
 ## Juntang Wang
 
-A Senior at DKU & Duke University, majoring in Applied Math & CS.
+A Senior at [Duke Kunshan University](https://www.dukekunshan.edu.cn) & [Duke University](https://duke.edu/), majoring in Applied Math & CS.
 
 ---
 
