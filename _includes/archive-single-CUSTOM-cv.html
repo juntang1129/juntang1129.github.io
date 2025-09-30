@@ -1,0 +1,28 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div style="display: flex; justify-content: space-between;">
+    <div>
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink"><strong>{{ post.title }}</strong></a><br>
+      {{ post.type }}
+    </div>
+    <div style="text-align: right;">
+      {{ post.dateC }}<br>
+      {{ post.location }}
+    </div>
+  </div>
+  <div style="margin-top: -0.7em;"></div>
+  {% if post.description %}{{ post.description }}{% endif %}
+</div>
