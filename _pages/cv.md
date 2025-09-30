@@ -11,23 +11,38 @@ redirect_from:
 
 {% include base_path %}
 
+---
+
 <div style="display: flex; justify-content: space-between;">
-  <div>
-    Email: <a href="mailto:jw853@duke.edu" target="_blank">jw853@duke.edu</a><br>
-    Website: <a href="http://tang.qqgjyx.com" target="_blank">tang.qqgjyx.com</a><br>
-  </div>
   <div>
     Phone (China): <a href="tel:+8613706267747" target="_blank">+86 13706267747</a><br>
     Phone (US): <a href="tel:+19192014521" target="_blank">+1 919-201-4521</a>
   </div>
   <div>
-    LinkedIn: <a href="http://linkedin.com/in/q9gjyx" target="_blank">linkedin.com/in/q9gjyx</a><br>
-    GitHub: <a href="http://github.com/qqgjyx" target="_blank">github.com/qqgjyx</a>
+    Email: <a href="mailto:jw853@duke.edu" target="_blank">jw853@duke.edu</a><br>
+    Website: <a href="https://tang.qqgjyx.com" target="_blank">tang.qqgjyx.com</a>
   </div>
   <div style="text-align: center; margin-bottom: 20px;" class="no-print">
-  <a href="{{ site.baseurl }}/files/resume.pdf" class="btn btn--primary">
-    <i class="fas fa-file-pdf" aria-hidden="true"></i> Open pdf
-  </a>
+    <a href="{{ site.baseurl }}/files/resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+      <i class="fas fa-file-pdf" aria-hidden="true" style="margin-right:0.5em;"></i>
+      PDF Resume
+    </a>
+    <style>
+      .btn.btn-primary {
+        background: #0d6efd;
+        color: #fff;
+        padding: 0.5em 1.5em;
+        border-radius: 0.375rem;
+        font-size: 1em;
+        text-decoration: none;
+        border: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5em;
+        cursor: pointer;
+      }
+      .btn.btn-primary:hover { background: #0a58ca; }
+    </style>
   </div>
 </div>
 
@@ -44,13 +59,30 @@ redirect_from:
   <div style="text-align: right;">
     Class of 2026<br>
     Kunshan, China<br>
-    Durham, U.S.
+    Durham, NC
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
 - GPA: 3.8/4.0; Dean's List with Distinction (24FA, 24SP), Dean's List (23FA)
-- Courses: Deep Learning (A+), Matrix, Graph, and Network Analysis (A+), Elements of Machine Learning (A+), Intro to Databases (A+), Intro to Comp Science (A+), Calculus (A+), Integrated Science - Biology (A+), etc.
-- Service: Resident Assistant, Kunshan Student Orientation Peers, Kendo Club Training Leader, etc.
+- Courses: Deep Learning (A+), Machine Learning (A+), Matrix/Graph/Network Analysis (A+), Databases (A+), etc. <!-- Comp Science (A+), Calculus (A+), Biology (A+) -->
+- Service/activities: Supported classmates at Duke as Kunshan Student Orientation Peer; Led weekly training sessions as Kendo Club Training Leader...
+
+## HONORS & AWARDS
+
+---
+
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <strong><a href="https://www.kaggle.com/competitions/stanford-rna-3d-folding" target="_blank" rel="noopener">
+      Stanford RNA 3D Folding (Kaggle)
+    </a></strong><br>
+    <em>Bronze Medal (Top 8%, 1500+ teams)</em>
+  </div>
+  <div style="text-align: right;">
+    Feb 2025 - Sep 2025<br>
+    Online
+  </div>
+</div>
 
 ## PROJECTS
 
@@ -59,12 +91,14 @@ redirect_from:
 **[qqgjyx.com/mheatmap](https://qqgjyx.com/mheatmap)**
 [![GitHub stars](https://img.shields.io/github/stars/qqgjyx/mheatmap)](https://github.com/qqgjyx/mheatmap/stargazers)
 <div style="margin-top: -0.7em;"></div>
-- A Python package for advanced heatmap visualization and matrix analysis, featuring mosaic heatmap, confusion matrix post-processing, and spectral reordering capabilities.
+- Developed a Python package for proportional heatmap visualization and spectral reordering, well-received by the community (600+ GitHub stars).
+- Adopted by research groups and cited in multiple academic papers.
 
 **[qqgjyx.com/pysgtsnepi](https://qqgjyx.com/pysgtsnepi)**
 [![GitHub stars](https://img.shields.io/github/stars/qqgjyx/pysgtsnepi)](https://github.com/qqgjyx/pysgtsnepi/stargazers)
 <div style="margin-top: -0.7em;"></div>
-- A Python implementation of the SG-t-SNE-Π algorithm for dimensionality reduction and visualization.
+- Implemented the [SG-t-SNE-Π algorithm](https://t-sne-pi.cs.duke.edu/) in Python from scratch, making state-of-the-art dimension reduction more accessible to researchers.
+- Improved ease of integration for data scientists by providing clean, well-documented APIs.
 
 ## PUBLICATIONS
 
@@ -82,92 +116,80 @@ redirect_from:
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>Graph-based unsupervised methods for time-series analysis</strong><br>
-    <em>Signature Work @ DKU</em>, PI: Prof. Shixin Xu<br>
+    <strong>Unsupervised/semi-supervised methods for biomedical tasks</strong><br>
+    <em>Signature Work</em>; Research Assistant. PI: <a href="https://sites.google.com/site/shixinxupage/" target="_blank">Prof. Shixin Xu</a><br>
   </div>
   <div style="text-align: right;">
-    Mar - Dec 2025<br>
+    Mar 2024 - Present<br>
     Kunshan, China
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Excelled in a series of capstones and milestones courses.
-- Produced 1 conference paper as side product in the early stage.
+- Researched on topics like 16S rRNA for bacterial culture media prediction and acute ischemic stroke reperfusion decision-making, etc.
+- Utilized techniques like clustering, neural networks, ordinary differential equations to solve real-world problems; Developed novel models.
+- Produced 2 conference papers and 1 thesis.
 
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Classifying vigilance states in mouse EEG/EMG data</strong><br>
-    <em>Summer Research Scholar @ DKU</em>, PI: Prof. Shu Kit Eric Tam & Prof. Sze Chai Kwok<br>
+    <em>Summer Research Scholar</em>. PI: <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/shu-kit-eric-tam" target="_blank">Prof. Shu Kit Eric Tam</a> & <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/sze-chai-kwok" target="_blank">Prof. Sze Chai Kwok</a><br>
   </div>
   <div style="text-align: right;">
-    Mar - July 2025<br>
+    Mar 2025 - Aug 2025<br>
     Kunshan, China
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Developed scripts and implemented automated classification of vigilance states in mouse EEG/EMG data.
-- Produced 1 conference paper.
+- Studied how the Martian photoperiod affects the mammalian circadian system and sleep/wake patterns in mice and methods for vigilance state classification.
+- Implemented a convolutional neural network to classify vigilance states using mouse electroencephalography (EEG) and electromyography (EMG) data.
+- Produced 1 conference paper and 1 journal article.
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <strong>Unsupervised segmentation for hyperspectral images</strong><br>
-    <em>Summer Research, RINDSTU @ Duke</em>, PI: Prof. Xiaobai Sun, Prof. Nikos Pitsianis & Dimitrios Floros<br>
+    <strong>Unsupervised segmentation in hyperspectral imaging</strong><br>
+    <em>Summer Research</em>; Independent Study. PI: <a href="https://nicholas.duke.edu/people/staff/floros" target="_blank">Dimitrios Floros</a>, <a href="https://scholars.duke.edu/person/nikos.p.pitsianis" target="_blank">Prof. Nikos Pitsianis</a> & <a href="https://scholars.duke.edu/person/xiaobai.sun" target="_blank">Prof. Xiaobai Sun</a><br>
   </div>
   <div style="text-align: right;">
-    June - Dec 2024<br>
+    Jun 2024 - Dec 2024<br>
     Durham, NC
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Achieved state-of-the-art on unsupervised segmentation in hyperspectral images.
-- Highly praised by PI. Delivered 1 presentation. Proceeding 1 manuscript and 1 thesis.
-
-<div style="display: flex; justify-content: space-between;">
-  <div>
-    <strong>Data-driven model for AIS reperfusion decision-making</strong><br>
-    <em>Research Assistant @ DKU</em>, PI: Prof. Shixin Xu<br>
-  </div>
-  <div style="text-align: right;">
-    Mar - June 2024<br>
-    Kunshan, China
-  </div>
-</div>
-<div style="margin-top: -0.7em;"></div>
-- Milestoned a novel ODE/Kernel method for pwiMRI presurgery diagnosis for acute hemorrhagic.
-- Empowered a Kunshan Government-funded project.
+- Studied precursor clustering/community detection methods, and applied them to hyperspectral imaging. Collected >5 methods and >10 datasets.
+- Utilized tools like Python (sklearn), MATLAB, Julia and techniques like k-nearest neighbor graph,  [Stochastic Graph t-SNE](https://t-sne-pi.cs.duke.edu/) and [Parallel Clustering with Resolution Variation](https://ieeexplore.ieee.org/document/10363552/) in the study.
+- Developed python packages [mheatmap](https://qqgjyx.com/mheatmap) and [pysgtsnepi](https://qqgjyx.com/pysgtsnepi) aiding post and pre-processing of HSI data, well-received by the community (600+ GitHub stars).
 
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Photon & exciton dynamics, photoluminescence, and superconductivity</strong><br>
-    <em>Research Independent Study @ DKU</em>, PI: Prof. Xiawa Wang<br>
+    <em>Research Independent Study @ DKU</em>, PI: <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/xiawa-wang" target="_blank">Prof. Xiawa Wang</a><br>
   </div>
   <div style="text-align: right;">
-    Jan - May 2024<br>
+    Jan 2024 - May 2024<br>
     Kunshan, China
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Achieved A grades in 4 RINSDSTU courses spanning freshman to junior year.
-- Produced 1 conference paper. Developed scripts for DFT, nSCF, Raman, and PL shift analysis.
+- Researched on topics like temperature-induced electronic, magnetic, and structural properties in solid-state materials including Pb$$_{10-x}$$Cu$$_x$$(PO$$_4$$)$$_6$$O$$_3$$ (LK-99), KBaLnB$$_2$$O$$_6$$ (Ln=Gd,Yb,Tb), etc.
+- Utilized tools like temperature-dependent X-ray diffraction, Raman spectroscopy, and density functional theory (DFT) calculations to study photoluminescence, phase transitions and ferromagnetism in these trending or rare-earth materials.
+- Produced 1 conference paper.
 
 ## SKILLS
 
 ---
 
-**Programming:** Python · MATLAB · Julia · Wolfram · Java · C/C++ · C#  · R · Bash  
-**Development:** PostgreSQL · MongoDB · HTML/CSS · Cloudflare  
-**Other Tools:** LaTeX · Markdown · AIGC tools · Adobe Creative Suite · Unity  
-**Languages:** English (Fluent) · Mandarin (Native) · Japanese · French
+**Programming & Analysis:** Python, R, MATLAB, Julia, Wolfram, Java, C/C++, C#, Bash  
+**Data & Web:** PostgreSQL, MongoDB, HTML/CSS, Cloudflare  
+**Tools:** LaTeX, Markdown, Unity, Generative AI tools (e.g., Cursor, Stable Diffusion)  
+**Languages:** English (Fluent), Mandarin (Native), Japanese, French
 
 ## TEACHING
 
 ---
 
-<div style="margin-top: -1em;"></div>
-<ul>{% for post in site.teaching reversed %}
-  <div style="margin-top: -1em;"></div>
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+{% for post in site.teaching reversed %}
+  <p>{% include archive-single-CUSTOM-cv.html %}</p>
+{% endfor %}
 
 ## WORK EXPERIENCE
 
@@ -175,17 +197,32 @@ redirect_from:
 
 <div style="display: flex; justify-content: space-between;">
   <div>
+    <strong>Resident Assistant</strong><br>
+    <em>Res Life, DKU</em>
+  </div>
+  <div style="text-align: right;">
+    Aug 2024 - Present<br>
+    Kunshan, China
+  </div>
+</div>
+<div style="margin-top: -0.7em;"></div>
+- Helped student residents with academic and personal issues, catalyzed an engaging community.
+- Handled 50+ incidents; served 3 years.
+- Wrote a Python script scraping Reddit images and resident roster for automatic door decoration creation, used by peer RAs.
+
+<div style="display: flex; justify-content: space-between;">
+  <div>
     <strong>Product Analyst, Intern</strong><br>
     <em>Second DX Division, NTT Data</em>
   </div>
   <div style="text-align: right;">
-    July - Aug 2023<br>
+    Jul 2023 - Aug 2023<br>
     Wuxi, China
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Produced a field report on software-related companies. Exceled N1 Japanese training.
-- Highly praised by a Chinese Academy of Sciences lab director.
+- Assisted in development (backend) and the literature review on topics like LLMs, agentic systems, etc.
+- Authored a professional report on software-related industries in China, focused on AI innovation.
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -193,27 +230,27 @@ redirect_from:
     <em>Business Department, Bank of Huaxia</em>
   </div>
   <div style="text-align: right;">
-    Jun - July 2023<br>
-    Suzhou, China
+    Jun 2023 - Jul 2023<br>
+    Kunshan, China
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Perfectly completed 50+ audit reports, conducted in-depth industry research.
-- Assisted in the loan department. Highly praised by the Bank Chairman.
+- Assisted in investigating the client business, including credit analysis, market research, etc.
+- Drafted 50+ audit reports on local electronic enterprises, conducted in-depth industry research.
 
-<div style="display: flex; justify-content: space-between;">
+<!-- <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Barista</strong><br>
     <em>Double-win Coffee</em>
   </div>
   <div style="text-align: right;">
-    Jun - Aug 2022<br>
+    Jun 2022 - Aug 2022<br>
     Shanghai, China
   </div>
-</div>
+</div> -->
 
 ## XTRA INFORMATION
 
 ---
 
-- Interests: ACG, cooking, guitar, gym.
+- Interests: Anime, Comics & Games (ACG), cooking, gym.
