@@ -162,7 +162,7 @@ redirect_from:
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Photon & exciton dynamics, photoluminescence, and superconductivity</strong><br>
-    <em>Research Independent Study @ DKU</em>, PI: <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/xiawa-wang" target="_blank">Prof. Xiawa Wang</a><br>
+    <em>Research Independent Study</em>. PI: <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/xiawa-wang" target="_blank">Prof. Xiawa Wang</a><br>
   </div>
   <div style="text-align: right;">
     Jan 2024 - May 2024<br>
