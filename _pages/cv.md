@@ -20,7 +20,7 @@ redirect_from:
   </div>
   <div>
     Email: <a href="mailto:jw853@duke.edu" target="_blank">jw853@duke.edu</a><br>
-    Website: <a href="https://tang.qqgjyx.com" target="_blank">tang.qqgjyx.com</a>
+    Website: <a href="https://www.qqgjyx.com" target="_blank">www.qqgjyx.com</a>
   </div>
   <div style="text-align: center; margin-bottom: 20px;" class="no-print">
     <a href="{{ site.baseurl }}/files/resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">
