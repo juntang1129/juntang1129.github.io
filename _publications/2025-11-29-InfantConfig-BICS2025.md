@@ -5,8 +5,8 @@ category: conferences
 permalink: /publication/2025-11-29-InfantConfig-BICS2025
 excerpt: ''
 date: 2025-11-29
-venue: '[Proceeding] 15th International Conference on Brain Inspired Cognitive Systems (BICS 2025)'
-citation: '<b>Juntang Wang</b>†, Yihan Wang†, Hao Wu, Dongmian Zou, Shixin Xu (2025). &quot;Brain-Inspired Perspective on Configurations: Unsupervised Similarity and Early Cognition.&quot; <i>15th International Conference on Brain Inspired Cognitive Systems (BICS 2025)</i>.'
+venue: '15th International Conference on Brain Inspired Cognitive Systems (BICS 2025, under review)'
+citation: '<b>Juntang Wang</b>†, Yihan Wang†, Hao Wu, Dongmian Zou, Shixin Xu (2025). &quot;Brain-Inspired Perspective on Configurations: Unsupervised Similarity and Early Cognition.&quot; <i>15th International Conference on Brain Inspired Cognitive Systems</i> (BICS 2025, under review).'
 paperurl: 'https://www.qqgjyx.com/files/p04-InfantConfig-BICS2025.pdf'
 ---
 

@@ -65,7 +65,7 @@ redirect_from:
 <div style="margin-top: -0.7em;"></div>
 - GPA: 3.8/4.0; Dean's List with Distinction (24FA, 24SP), Dean's List (23FA)
 - Courses: Deep Learning (A+), Machine Learning (A+), Matrix/Graph/Network Analysis (A+), Databases (A+), etc. <!-- Comp Science (A+), Calculus (A+), Biology (A+) -->
-- Service/activities: Supported classmates at Duke as Kunshan Student Orientation Peer; Led weekly training sessions as Kendo Club Training Leader...
+- Service/activities: Supported classmates at Duke as Kunshan Student Orientation Peer. Led weekly training sessions as Kendo Club Training Leader...
 
 ## HONORS & AWARDS
 
@@ -83,6 +83,10 @@ redirect_from:
     Online
   </div>
 </div>
+<div style="margin-top: -0.7em;"></div>
+- Parsed CSV-format sequence and label data, generated YAML-format inputs, and handled data preprocessing including sequence redundancy and multi-conformation reference structures.
+- Integrated and deployed a dual-model prediction pipeline (Boltz-1 & Protenix); configured cache and advanced diffusion parameters for optimal inference.
+- Calculated TM-score using US-align, fused model outputs, corrected invalid coordinates, and generated compliant final submissions, achieving a top-8% finish among 1500+ teams.
 
 ## PROJECTS
 
@@ -91,14 +95,14 @@ redirect_from:
 **[qqgjyx.com/mheatmap](https://qqgjyx.com/mheatmap)**
 [![GitHub stars](https://img.shields.io/github/stars/qqgjyx/mheatmap)](https://github.com/qqgjyx/mheatmap/stargazers)
 <div style="margin-top: -0.7em;"></div>
-- Developed a Python package for proportional heatmap visualization and spectral reordering, well-received by the community (600+ GitHub stars).
-- Adopted by research groups and cited in multiple academic papers.
+- Developed a Python package for proportional heatmap visualization and spectral reordering that has been well received by the community (600+ GitHub stars).
+- It has been adopted by research groups and cited in several academic papers.
 
 **[qqgjyx.com/pysgtsnepi](https://qqgjyx.com/pysgtsnepi)**
 [![GitHub stars](https://img.shields.io/github/stars/qqgjyx/pysgtsnepi)](https://github.com/qqgjyx/pysgtsnepi/stargazers)
 <div style="margin-top: -0.7em;"></div>
-- Implemented the [SG-t-SNE-Π algorithm](https://t-sne-pi.cs.duke.edu/) in Python from scratch, making state-of-the-art dimension reduction more accessible to researchers.
-- Improved ease of integration for data scientists by providing clean, well-documented APIs.
+- Implemented the [SG-t-SNE-Π algorithm](https://t-sne-pi.cs.duke.edu/) in Python from scratch, making state-of-the-art dimensionality reduction more accessible to researchers.
+- Enhanced integration for data scientists by providing clean, well-documented APIs.
 
 ## PUBLICATIONS
 
@@ -125,9 +129,9 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Researched on topics like 16S rRNA for bacterial culture media prediction and acute ischemic stroke reperfusion decision-making, etc.
-- Utilized techniques like clustering, neural networks, ordinary differential equations to solve real-world problems; Developed novel models.
-- Produced 2 conference papers and 1 thesis.
+- Conducted research on topics including 16S rRNA for bacterial culture media prediction and acute ischemic stroke reperfusion decision-making.
+- Utilized techniques such as clustering, neural networks, and ordinary differential equations to solve real-world problems; developed novel models.
+- Produced two peer-reviewed papers currently under review at top-tier international conferences, as well as one thesis.
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -140,9 +144,9 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Studied how the Martian photoperiod affects the mammalian circadian system and sleep/wake patterns in mice and methods for vigilance state classification.
+- Studied how the Martian photoperiod affects the mammalian circadian system, as well as sleep and wake patterns in mice, and explored methods for vigilance state classification.
 - Implemented a convolutional neural network to classify vigilance states using mouse electroencephalography (EEG) and electromyography (EMG) data.
-- Produced 1 conference paper and 1 journal article.
+- Produced one peer-reviewed conference paper and one journal article currently under review at a PNAS sub-journal.
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -155,9 +159,9 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Studied precursor clustering/community detection methods, and applied them to hyperspectral imaging. Collected >5 methods and >10 datasets.
-- Utilized tools like Python (sklearn), MATLAB, Julia and techniques like k-nearest neighbor graph,  [Stochastic Graph t-SNE](https://t-sne-pi.cs.duke.edu/) and [Parallel Clustering with Resolution Variation](https://ieeexplore.ieee.org/document/10363552/) in the study.
-- Developed python packages [mheatmap](https://qqgjyx.com/mheatmap) and [pysgtsnepi](https://qqgjyx.com/pysgtsnepi) aiding post and pre-processing of HSI data, well-received by the community (600+ GitHub stars).
+- Studied precursor clustering and community detection methods, applying them to hyperspectral imaging. Collected over 5 methods and more than 10 datasets.
+- Utilized tools such as Python (scikit-learn), MATLAB, and Julia, as well as techniques like k-nearest neighbor graphs, [Stochastic Graph t-SNE](https://t-sne-pi.cs.duke.edu/), and [Parallel Clustering with Resolution Variation](https://ieeexplore.ieee.org/document/10363552/).
+- Developed Python packages [mheatmap](https://qqgjyx.com/mheatmap) and [pysgtsnepi](https://qqgjyx.com/pysgtsnepi), which aid in post- and pre-processing of HSI data and have been well received by the community (600+ GitHub stars).
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -170,9 +174,9 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Researched on topics like temperature-induced electronic, magnetic, and structural properties in solid-state materials including Pb$$_{10-x}$$Cu$$_x$$(PO$$_4$$)$$_6$$O$$_3$$ (LK-99), KBaLnB$$_2$$O$$_6$$ (Ln=Gd,Yb,Tb), etc.
-- Utilized tools like temperature-dependent X-ray diffraction, Raman spectroscopy, and density functional theory (DFT) calculations to study photoluminescence, phase transitions and ferromagnetism in these trending or rare-earth materials.
-- Produced 1 conference paper.
+- Researched temperature-induced electronic, magnetic, and structural properties of solid-state materials, including Pb$$_{10-x}$$Cu$$_x$$(PO$$_4$$)$$_6$$O$$_3$$ (LK-99), KBaLnB$$_2$$O$$_6$$ (Ln = Gd, Yb, Tb), and others.
+- Utilized techniques such as temperature-dependent X-ray diffraction, Raman spectroscopy, and density functional theory (DFT) calculations to study photoluminescence, phase transitions, and ferromagnetism in these emerging or rare-earth materials.
+- Produced a conference paper presented at an international conference organized by the Royal Society of Chemistry (RSC).
 
 ## SKILLS
 
@@ -206,9 +210,8 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Helped student residents with academic and personal issues, catalyzed an engaging community.
-- Handled 50+ incidents; served 3 years.
-- Wrote a Python script scraping Reddit images and resident roster for automatic door decoration creation, used by peer RAs.
+- Assisted student residents with academic and personal issues; fostered an engaging community; handled 50+ incidents; served for 3 years.
+- Developed a Python script to scrape Reddit images and the resident roster for automatic door decoration creation, which was used by fellow RAs.
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -221,8 +224,8 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Assisted in development (backend) and the literature review on topics like LLMs, agentic systems, etc.
-- Authored a professional report on software-related industries in China, focused on AI innovation.
+- Assisted in backend development and conducted literature reviews on topics such as LLMs, agentic systems, and more.
+- Authored a professional report on software-related industries in China, focusing on AI innovation.
 
 <div style="display: flex; justify-content: space-between;">
   <div>
@@ -235,8 +238,8 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Assisted in investigating the client business, including credit analysis, market research, etc.
-- Drafted 50+ audit reports on local electronic enterprises, conducted in-depth industry research.
+- Assisted in investigating client businesses, including conducting credit analysis and market research.
+- Drafted over 50 audit reports on local electronics companies and conducted in-depth industry research.
 
 <!-- <div style="display: flex; justify-content: space-between;">
   <div>
