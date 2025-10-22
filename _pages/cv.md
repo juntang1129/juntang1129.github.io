@@ -96,13 +96,13 @@ redirect_from:
 [![GitHub stars](https://img.shields.io/github/stars/qqgjyx/mheatmap)](https://github.com/qqgjyx/mheatmap/stargazers)
 <div style="margin-top: -0.7em;"></div>
 - Developed a Python package for proportional heatmap visualization and spectral reordering that has been well received by the community (600+ GitHub stars).
-- It has been adopted by research groups and cited in several academic papers.
+- Achieved broad academic impact: the package has been adopted by multiple research groups for data visualization workflows and has been cited in peer-reviewed papers, highlighting its usefulness and reliability in published scientific research.
 
 **[qqgjyx.com/pysgtsnepi](https://qqgjyx.com/pysgtsnepi)**
 [![GitHub stars](https://img.shields.io/github/stars/qqgjyx/pysgtsnepi)](https://github.com/qqgjyx/pysgtsnepi/stargazers)
 <div style="margin-top: -0.7em;"></div>
 - Implemented the [SG-t-SNE-Π algorithm](https://t-sne-pi.cs.duke.edu/) in Python from scratch, making state-of-the-art dimensionality reduction more accessible to researchers.
-- Enhanced integration for data scientists by providing clean, well-documented APIs.
+- Achieved wider community adoption by delivering clean, well-documented APIs, enabling seamless integration of SG-t-SNE-Π into existing data science pipelines and fostering efficient usage by researchers and practitioners.
 
 ## PUBLICATIONS
 
@@ -145,7 +145,7 @@ redirect_from:
 </div>
 <div style="margin-top: -0.7em;"></div>
 - Studied how the Martian photoperiod affects the mammalian circadian system, as well as sleep and wake patterns in mice, and explored methods for vigilance state classification.
-- Implemented a convolutional neural network to classify vigilance states using mouse electroencephalography (EEG) and electromyography (EMG) data.
+- Implemented a convolutional neural network that achieved over 90% accuracy in classifying vigilance states using mouse electroencephalography (EEG) and electromyography (EMG) data. Explored and compared more than 10 existing classification methods.
 - Produced one peer-reviewed conference paper and one journal article currently under review at a PNAS sub-journal.
 
 <div style="display: flex; justify-content: space-between;">
@@ -160,7 +160,7 @@ redirect_from:
 </div>
 <div style="margin-top: -0.7em;"></div>
 - Studied precursor clustering and community detection methods, applying them to hyperspectral imaging. Collected over 5 methods and more than 10 datasets.
-- Utilized tools such as Python (scikit-learn), MATLAB, and Julia, as well as techniques like k-nearest neighbor graphs, [Stochastic Graph t-SNE](https://t-sne-pi.cs.duke.edu/), and [Parallel Clustering with Resolution Variation](https://ieeexplore.ieee.org/document/10363552/).
+- Utilized tools such as Python (scikit-learn), MATLAB, and Julia, as well as techniques such as k-nearest neighbor graphs, [Stochastic Graph t-SNE](https://t-sne-pi.cs.duke.edu/), and [Parallel Clustering with Resolution Variation](https://ieeexplore.ieee.org/document/10363552/) to address the challenge of unsupervised segmentation in hyperspectral imaging.
 - Developed Python packages [mheatmap](https://qqgjyx.com/mheatmap) and [pysgtsnepi](https://qqgjyx.com/pysgtsnepi), which aid in post- and pre-processing of HSI data and have been well received by the community (600+ GitHub stars).
 
 <div style="display: flex; justify-content: space-between;">
@@ -174,7 +174,7 @@ redirect_from:
   </div>
 </div>
 <div style="margin-top: -0.7em;"></div>
-- Researched temperature-induced electronic, magnetic, and structural properties of solid-state materials, including Pb$$_{10-x}$$Cu$$_x$$(PO$$_4$$)$$_6$$O$$_3$$ (LK-99), KBaLnB$$_2$$O$$_6$$ (Ln = Gd, Yb, Tb), and others.
+- Researched temperature-induced electronic, magnetic, and structural properties of emerging solid-state materials, including Pb$$_{10-x}$$Cu$$_x$$(PO$$_4$$)$$_6$$O$$_3$$ (LK-99), KBaLnB$$_2$$O$$_6$$ (Ln = Gd, Yb, Tb), and others.
 - Utilized techniques such as temperature-dependent X-ray diffraction, Raman spectroscopy, and density functional theory (DFT) calculations to study photoluminescence, phase transitions, and ferromagnetism in these emerging or rare-earth materials.
 - Produced a conference paper presented at an international conference organized by the Royal Society of Chemistry (RSC).
 
@@ -182,7 +182,7 @@ redirect_from:
 
 ---
 
-**Programming & Analysis:** Python, R, MATLAB, Julia, Wolfram, Java, C/C++, C#, Bash  
+**Programming & Analysis:** Python (Advanced), MATLAB, R, Julia, Wolfram, Java, C/C++, C#, Bash  
 **Data & Web:** PostgreSQL, MongoDB, HTML/CSS, Cloudflare  
 **Tools:** LaTeX, Markdown, Unity, Generative AI tools (e.g., Cursor, Stable Diffusion)  
 **Languages:** English (Fluent), Mandarin (Native), Japanese, French
@@ -256,4 +256,5 @@ redirect_from:
 
 ---
 
+- Certifications: Responsible Conduct for Duke Community Engagement (Canvas Credentials), Undergraduate Student Responsible Conduct of Research (CITI Program), etc.
 - Interests: Anime, Comics & Games (ACG), cooking, gym.
