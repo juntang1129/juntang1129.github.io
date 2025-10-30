@@ -7,7 +7,7 @@ redirect_from:
   - /projects.html
 ---
 
-## **[qqgjyx.com/mheatmap](https://qqgjyx.com/mheatmap)**
+## **[qqgjyx.com/mheatmap](https://qqgjyx.github.io/mheatmap/)**
 
 [![GitHub stars](https://img.shields.io/github/stars/qqgjyx/mheatmap?style=for-the-badge&logo=github&color=yellow)](https://github.com/qqgjyx/mheatmap/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/qqgjyx/mheatmap?style=for-the-badge&logo=github&color=blue)](https://github.com/qqgjyx/mheatmap/network/members)
@@ -16,7 +16,7 @@ A Python package for advanced heatmap visualization and matrix analysis, featuri
 
 [![Star History Chart](https://api.star-history.com/svg?repos=qqgjyx/mheatmap&type=Date)](https://www.star-history.com/#qqgjyx/mheatmap&Date)
 
-## **[qqgjyx.com/pysgtsnepi](https://qqgjyx.com/pysgtsnepi)**
+## **[qqgjyx.com/pysgtsnepi](https://qqgjyx.github.io/pysgtsnepi/)**
 
 [![GitHub stars](https://img.shields.io/github/stars/qqgjyx/pysgtsnepi?style=for-the-badge&logo=github&color=yellow)](https://github.com/qqgjyx/pysgtsnepi/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/qqgjyx/pysgtsnepi?style=for-the-badge&logo=github&color=blue)](https://github.com/qqgjyx/pysgtsnepi/network/members)
