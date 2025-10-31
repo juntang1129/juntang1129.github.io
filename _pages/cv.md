@@ -121,7 +121,7 @@ redirect_from:
 <div style="display: flex; justify-content: space-between;">
   <div>
     <strong>Unsupervised/semi-supervised methods for biomedical tasks</strong><br>
-    <em>Signature Work</em>; Research Assistant. PI: <a href="https://sites.google.com/site/shixinxupage/" target="_blank">Prof. Shixin Xu</a><br>
+    <em>Signature Work</em>; Research Assistant. PI: <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/dongmian-zou" target="_blank">Prof. Dongmian Zou</a> & <a href="https://sites.google.com/site/shixinxupage/" target="_blank">Prof. Shixin Xu</a><br>
   </div>
   <div style="text-align: right;">
     Mar 2024 - Present<br>
