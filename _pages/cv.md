@@ -67,7 +67,7 @@ redirect_from:
 - Courses: Deep Learning (A+), Machine Learning (A+), Matrix/Graph/Network Analysis (A+), Databases (A+), etc. <!-- Comp Science (A+), Calculus (A+), Biology (A+) -->
 - Service/activities: Supported classmates at Duke as Kunshan Student Orientation Peer. Led weekly training sessions as Kendo Club Training Leader...
 
-## HONORS & AWARDS
+<!-- ## HONORS & AWARDS
 
 ---
 
@@ -86,7 +86,7 @@ redirect_from:
 <div style="margin-top: -0.7em;"></div>
 - Parsed CSV-format sequence and label data, generated YAML-format inputs, and handled data preprocessing including sequence redundancy and multi-conformation reference structures.
 - Integrated and deployed a dual-model prediction pipeline (Boltz-1 & Protenix); configured cache and advanced diffusion parameters for optimal inference.
-- Calculated TM-score using US-align, fused model outputs, corrected invalid coordinates, and generated compliant final submissions, achieving a top-8% finish among 1500+ teams.
+- Calculated TM-score using US-align, fused model outputs, corrected invalid coordinates, and generated compliant final submissions, achieving a top-8% finish among 1500+ teams. -->
 
 ## PROJECTS
 
@@ -178,14 +178,14 @@ redirect_from:
 - Utilized techniques such as temperature-dependent X-ray diffraction, Raman spectroscopy, and density functional theory (DFT) calculations to study photoluminescence, phase transitions, and ferromagnetism in these emerging or rare-earth materials.
 - Produced a conference paper presented at an international conference organized by the Royal Society of Chemistry (RSC).
 
-## SKILLS
+<!-- ## SKILLS
 
 ---
 
 **Programming & Analysis:** Python (Advanced), MATLAB, R, Julia, Wolfram, Java, C/C++, C#, Bash  
 **Data & Web:** PostgreSQL, MongoDB, HTML/CSS, Cloudflare  
 **Tools:** LaTeX, Markdown, Unity, Generative AI tools (e.g., Cursor, Stable Diffusion)  
-**Languages:** English (Fluent), Mandarin (Native), Japanese, French
+**Languages:** English (Fluent), Mandarin (Native), Japanese, French -->
 
 ## TEACHING
 
@@ -256,5 +256,8 @@ redirect_from:
 
 ---
 
-- Certifications: Responsible Conduct for Duke Community Engagement (Canvas Credentials), Undergraduate Student Responsible Conduct of Research (CITI Program), etc.
-- Interests: Anime, Comics & Games (ACG), cooking, gym.
+**Certifications:** Responsible Conduct for Duke Community Engagement (Canvas Credentials), Undergraduate Student Responsible Conduct of Research (CITI Program), etc. \
+**Honors & awards:** <a href="https://www.kaggle.com/competitions/stanford-rna-3d-folding" target="_blank" rel="noopener">Stanford RNA 3D Folding (Kaggle)</a> Bronze Medal (Top 8%, 1500+ teams). \
+**Interests:** Anime, Comics & Games (ACG), cooking, gym. \
+**Service:** Supported classmates at Duke as Orientation Peer. Led weekly training sessions as Kendo Club Training Leader… \
+**Skills:** Programming & analysis (Python, MATLAB, Julia, Java, C); data & web (PostgreSQL, MongoDB, HTML/CSS)…
