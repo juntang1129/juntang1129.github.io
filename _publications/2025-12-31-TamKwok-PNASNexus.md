@@ -6,7 +6,7 @@ permalink: /publication/2025-12-31-TamKwok-PNASNexus
 excerpt: ''
 date: 2025-12-31
 venue: 'PNAS Nexus (under review)'
-citation: 'Shu Kit Eric Tam, <b>Juntang Wang</b>, Aleksandra Stryjska, Pascal Grange, Sze Chai Kwok. (2025). &quot;Martian Photoperiod Attenuates Waking Theta Activity at Night and Disrupts Short-term Object Memory in Mice Despite Circadian Realignment.&quot; <i>PNAS Nexus</i> (under review).'
+citation: 'Shu Kit Eric Tam, <b>Juntang Wang</b>, Aleksandra Stryjska, Pascal Grange, and Sze Chai Kwok. (2025). &quot;Martian Photoperiod Attenuates Waking Theta Activity at Night and Disrupts Short-term Object Memory in Mice Despite Circadian Realignment.&quot; <i>PNAS Nexus</i> (under review).'
 ---
 
 ## Abstract
