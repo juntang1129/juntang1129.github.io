@@ -146,7 +146,7 @@ redirect_from:
 <div style="margin-top: -0.7em;"></div>
 - Studied how the Martian photoperiod affects the mammalian circadian system, as well as sleep and wake patterns in mice, and explored methods for vigilance state classification.
 - Implemented a convolutional neural network that achieved over 90% accuracy in classifying vigilance states using mouse electroencephalography (EEG) and electromyography (EMG) data. Explored and compared more than 10 existing classification methods.
-- Produced one peer-reviewed conference paper and one journal article currently under review at a PNAS sub-journal.
+- Produced one conference poster and one research manuscript that is currently under consideration in a SCI journal.
 
 <div style="display: flex; justify-content: space-between;">
   <div>
