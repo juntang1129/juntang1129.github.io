@@ -2,7 +2,7 @@
 title: "Martian Photoperiod Attenuates Waking Theta Activity at Night and Disrupts Short-term Object Memory in Mice Despite Circadian Realignment"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-12-31-TamKwok-PNASNexus
+permalink: /publication/2025-12-31-TamKwok-XXX
 excerpt: ''
 date: 2025-12-31
 venue: 'Submitted'
