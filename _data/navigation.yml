@@ -1,0 +1,16 @@
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "More"
+    url: /more/
+
+  # Hidden — surfaced under More in Phase 6:
+  # - title: "Teaching"
+  #   url: /teaching/
+  # - title: "Talks"
+  #   url: /talks/
+  # CV: linked as PDF from homepage (Phase 7), not a nav tab

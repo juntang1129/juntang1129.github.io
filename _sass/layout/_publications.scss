@@ -1,0 +1,8 @@
+/* ==========================================================================
+   PUBLICATIONS PAGE — supplements _homepage.scss
+   ========================================================================== */
+
+/* Scroll offset for anchor links (masthead is position: fixed, 70px) */
+.hp-pub[id] {
+  scroll-margin-top: calc(#{$masthead-height} + 1em);
+}

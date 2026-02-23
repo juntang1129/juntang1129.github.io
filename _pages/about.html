@@ -1,0 +1,152 @@
+---
+layout: homepage
+permalink: /
+title: ""
+author_profile: false
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+{% include base_path %}
+
+<h1 class="hp-name">Juntang Wang</h1>
+
+<div class="hp-profile">
+  <div class="hp-photo-col">
+    <img class="hp-photo" src="{{ base_path }}/images/profile.webp" alt="Juntang Wang">
+    <p class="hp-links">
+      <a href="{{ base_path }}/files/resume.pdf">CV</a> /
+      <a href="https://scholar.google.com/citations?user=iUaLgWwAAAAJ">Google Scholar</a> /
+      <a href="https://github.com/qqgjyx">GitHub</a> /
+      <a href="mailto:jw853@duke.edu">Email</a> /
+      <a href="https://linkedin.com/in/q9gjyx">LinkedIn</a>
+    </p>
+  </div>
+  <div class="hp-bio-col">
+    <p>Hi there! I am an incoming M.S. in Data Science student at
+    <a href="https://gsas.harvard.edu/">Harvard University</a>.
+    I am completing my B.S. in Applied Mathematics &amp; Computational Sciences
+    (Computer Science Track) at
+    <a href="https://www.dukekunshan.edu.cn">Duke Kunshan University</a> &amp;
+    <a href="https://duke.edu">Duke University</a> (May 2026),
+    where I am advised by
+    <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/shixin-xu">Prof. Shixin Xu</a> and
+    <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/dongmian-zou">Prof. Dongmian Zou</a>.</p>
+
+    <p>I am broadly interested in numerical methods and representation learning,
+    with a particular focus on AI for Science — spanning biomedical applications
+    and photon-electron dynamics. Feel free to reach out if you have shared research
+    interests. I am always open to collaboration and discussions!</p>
+  </div>
+</div>
+
+<hr class="hp-divider">
+
+<div class="hp-section">
+  <h2 class="hp-section-heading">News</h2>
+  <ul class="hp-news">
+    <li>[Nov, 2025] <a href="{{ base_path }}/publications/#infantconfig">InfantConfig</a> has been selected for <strong class="hp-pub-award">Oral Presentation</strong> at BICS 2025.</li>
+    <li>[Sep, 2025] <a href="{{ base_path }}/publications/#martianclock">MartianClock</a> is accepted to CNS 2025.</li>
+    <li>[Jul, 2025] <a href="{{ base_path }}/publications/#lk99">TempLK99</a> is accepted to MC17.</li>
+  </ul>
+</div>
+
+<hr class="hp-divider">
+
+<div class="hp-section">
+  <h2 class="hp-section-heading">Selected Publications</h2>
+  <p class="hp-note"><sup>†</sup> denotes equal contribution; only first and co-first authored papers are listed</p>
+  {% assign featured_pubs = site.publications | where: "featured", true | sort: "date" | reverse %}
+  {% for pub in featured_pubs %}
+  <div class="hp-pub">
+    <h3 class="hp-pub-title">
+      <a href="{{ base_path }}/publications/#{{ pub.anchor }}">{{ pub.title }}</a>
+    </h3>
+    <p class="hp-pub-authors">{{ pub.display_authors }}</p>
+    <p class="hp-pub-venue">
+      <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}
+      {% if pub.award %}<br><strong class="hp-pub-award">{{ pub.award }}</strong>{% endif %}
+    </p>
+    <p class="hp-pub-links">
+      {% assign sep = "" %}
+      {% if pub.paperurl %}<a href="{{ pub.paperurl }}">paper</a>{% assign sep = " / " %}{% endif %}
+      {% if pub.arxivurl %}{{ sep }}<a href="{{ pub.arxivurl }}">arXiv</a>{% assign sep = " / " %}{% endif %}
+      {% if pub.posterurl %}{{ sep }}<a href="{{ pub.posterurl }}">poster</a>{% assign sep = " / " %}{% endif %}
+      {% if pub.slidesurl %}{{ sep }}<a href="{{ pub.slidesurl }}">slides</a>{% assign sep = " / " %}{% endif %}
+      {% if pub.codeurl %}{{ sep }}<a href="{{ pub.codeurl }}">code</a>{% endif %}
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+<hr class="hp-divider">
+
+<div class="hp-section">
+  <h2 class="hp-section-heading">Education</h2>
+  <div class="hp-edu-row">
+    <div class="hp-edu-logo">
+      <img src="{{ base_path }}/images/edu/harvard-logo.png" alt="Harvard University Logo">
+    </div>
+    <div class="hp-edu-info">
+      <strong><a href="https://gsas.harvard.edu/">Harvard University</a></strong><br>
+      M.S. in Data Science (2026 – 2028)
+    </div>
+  </div>
+  <div class="hp-edu-row">
+    <div class="hp-edu-logo">
+      <img src="{{ base_path }}/images/edu/duke-logo.png" alt="Duke University Logo">
+    </div>
+    <div class="hp-edu-info">
+      <strong><a href="https://duke.edu">Duke University</a></strong><br>
+      B.S. in Interdisciplinary Science (2022 – 2026)
+    </div>
+  </div>
+  <div class="hp-edu-row">
+    <div class="hp-edu-logo">
+      <img src="{{ base_path }}/images/edu/dku-logo.png" alt="Duke Kunshan University Logo">
+    </div>
+    <div class="hp-edu-info">
+      <strong><a href="https://www.dukekunshan.edu.cn">Duke Kunshan University</a></strong><br>
+      B.S. in Applied Math &amp; Computational Science, CS Track (2022 – 2026)
+    </div>
+  </div>
+</div>
+
+<hr class="hp-divider">
+
+<div class="hp-section">
+  <h2 class="hp-section-heading">Work Experience</h2>
+  <div class="hp-work-row">
+    <div class="hp-work-logo">
+      <img src="{{ base_path }}/images/work/nttdata-logo.png" alt="NTT Data Logo">
+    </div>
+    <div class="hp-work-info">
+      <strong><a href="https://www.nttdata.com/">NTT Data</a></strong><br>
+      Product Analyst, Intern (2023.7 – 2023.8)<br>
+      Wuxi, China
+    </div>
+  </div>
+  <div class="hp-work-row">
+    <div class="hp-work-logo">
+      <img src="{{ base_path }}/images/work/huaxia-logo.png" alt="Bank of Huaxia Logo">
+    </div>
+    <div class="hp-work-info">
+      <strong><a href="https://www.hxb.com.cn/">Bank of Huaxia</a></strong><br>
+      Business Analyst, Intern (2023.6 – 2023.7)<br>
+      Kunshan, China
+    </div>
+  </div>
+</div>
+
+<hr class="hp-divider">
+
+<div class="hp-section">
+  <h2 class="hp-section-heading">Miscellanea</h2>
+  <ul class="hp-list">
+    <li>My Chinese name (surname first) is 王俊棠.</li>
+    <li>I am from Kunshan, Jiangsu Province in China.</li>
+  </ul>
+</div>
+
+<hr class="hp-divider">

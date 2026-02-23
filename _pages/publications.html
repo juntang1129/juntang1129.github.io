@@ -1,0 +1,35 @@
+---
+layout: homepage
+title: "Publications"
+permalink: /publications/
+author_profile: false
+redirect_from:
+  - /publications.html
+---
+
+{% include base_path %}
+
+<p class="hp-note">
+  <sup>&dagger;</sup> denotes equal contribution.
+  You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</p>
+
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% for pub in sorted_pubs %}
+<div class="hp-pub" id="{{ pub.anchor }}">
+  <h3 class="hp-pub-title">{{ pub.title }}</h3>
+  <p class="hp-pub-authors">{{ pub.display_authors }}</p>
+  <p class="hp-pub-venue">
+    <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}
+    {% if pub.award %}<br><strong class="hp-pub-award">{{ pub.award }}</strong>{% endif %}
+  </p>
+  <p class="hp-pub-links">
+    {% assign sep = "" %}
+    {% if pub.paperurl %}<a href="{{ pub.paperurl }}">paper</a>{% assign sep = " / " %}{% endif %}
+    {% if pub.arxivurl %}{{ sep }}<a href="{{ pub.arxivurl }}">arXiv</a>{% assign sep = " / " %}{% endif %}
+    {% if pub.posterurl %}{{ sep }}<a href="{{ pub.posterurl }}">poster</a>{% assign sep = " / " %}{% endif %}
+    {% if pub.slidesurl %}{{ sep }}<a href="{{ pub.slidesurl }}">slides</a>{% assign sep = " / " %}{% endif %}
+    {% if pub.codeurl %}{{ sep }}<a href="{{ pub.codeurl }}">code</a>{% endif %}
+  </p>
+</div>
+{% endfor %}

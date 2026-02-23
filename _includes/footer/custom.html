@@ -1,0 +1,24 @@
+<!-- start custom footer snippets -->
+
+<a href="{{ base_path }}/sitemap/">Sitemap</a>
+
+<!-- Support for MathJax (only on pages with mathjax: true) -->
+{% if page.mathjax %}
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+{% endif %}
+
+<!-- Support for Plotly (only on pages with plotly: true) -->
+{% if page.plotly %}
+<script defer src='https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js'></script>
+{% endif %}
+
+<!-- Support for Mermaid (only on pages with mermaid: true) -->
+{% if page.mermaid %}
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({startOnLoad:true, theme:'default'});
+    await mermaid.run({querySelector:'code.language-mermaid'});
+</script>
+{% endif %}
+
+<!-- end custom footer snippets -->
