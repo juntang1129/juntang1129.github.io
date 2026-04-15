@@ -60,7 +60,7 @@ redirect_from:
   <p class="hp-note"><sup>†</sup> denotes equal contribution; only first and co-first authored papers are listed</p>
   {% assign featured_pubs = site.publications | where: "featured", true | sort: "date" | reverse %}
   {% for pub in featured_pubs %}
-  <div class="hp-pub">
+  <div class="hp-pub{% if pub.highlighted %} hp-pub--highlight{% endif %}">
     <h3 class="hp-pub-title">
       <a href="{{ base_path }}/publications/#{{ pub.anchor }}">{{ pub.title }}</a>
     </h3>
@@ -120,21 +120,21 @@ redirect_from:
   <h2 class="hp-section-heading">Work Experience</h2>
   <div class="hp-work-row">
     <div class="hp-work-logo">
-      <img src="{{ base_path }}/images/work/nttdata-logo.png" alt="NTT Data Logo">
+      <img src="{{ base_path }}/images/work/siemens-logo.png" alt="Siemens Healthineers Logo">
     </div>
     <div class="hp-work-info">
-      <strong><a href="https://www.nttdata.com/">NTT Data</a></strong><br>
-      Product Analyst, Intern (2023.7 – 2023.8)<br>
-      Wuxi, China
+      <strong><a href="https://www.siemens-healthineers.com/">Siemens Healthineers</a></strong><br>
+      Algorithm Engineer, Intern (2026.3 – 2026.5)<br>
+      Shanghai, China
     </div>
   </div>
   <div class="hp-work-row">
     <div class="hp-work-logo">
-      <img src="{{ base_path }}/images/work/huaxia-logo.png" alt="Bank of Huaxia Logo">
+      <img src="{{ base_path }}/images/work/huaxia-logo.png" alt="Huaxia Bank Logo">
     </div>
     <div class="hp-work-info">
-      <strong><a href="https://www.hxb.com.cn/">Bank of Huaxia</a></strong><br>
-      Credit Analyst, Intern (2023.6 – 2023.7)<br>
+      <strong><a href="https://www.hxb.com.cn/">Huaxia Bank</a></strong><br>
+      Credit Analyst, Intern (2023.6 – 2023.8)<br>
       Kunshan, China
     </div>
   </div>

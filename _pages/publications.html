@@ -16,7 +16,7 @@ redirect_from:
 
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
 {% for pub in sorted_pubs %}
-<div class="hp-pub" id="{{ pub.anchor }}">
+<div class="hp-pub{% if pub.highlighted %} hp-pub--highlight{% endif %}" id="{{ pub.anchor }}">
   <h3 class="hp-pub-title">{{ pub.title }}</h3>
   <p class="hp-pub-authors">{{ pub.display_authors }}</p>
   <p class="hp-pub-venue">
