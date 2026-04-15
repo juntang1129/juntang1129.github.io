@@ -10,6 +10,16 @@ redirect_from:
 
 {% include base_path %}
 
+{% assign banner_until = "2026-04-25" | date: "%Y-%m-%d" %}
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% if today <= banner_until %}
+<aside class="hp-banner" role="note">
+  <span class="hp-banner-tag">Apr 17 · Now</span>
+  <span class="hp-banner-msg">Welcome from the SignatureWork poster session</span>
+  <a class="hp-banner-cta" href="#minn">Jump to MINN <span aria-hidden="true">↓</span></a>
+</aside>
+{% endif %}
+
 <h1 class="hp-name">Juntang Wang</h1>
 
 <div class="hp-profile">
@@ -60,7 +70,7 @@ redirect_from:
   <p class="hp-note"><sup>†</sup> denotes equal contribution; only first and co-first authored papers are listed</p>
   {% assign featured_pubs = site.publications | where: "featured", true | sort: "date" | reverse %}
   {% for pub in featured_pubs %}
-  <div class="hp-pub{% if pub.highlighted %} hp-pub--highlight{% endif %}">
+  <div class="hp-pub{% if pub.highlighted %} hp-pub--highlight{% endif %}" id="{{ pub.anchor }}">
     <h3 class="hp-pub-title">
       <a href="{{ base_path }}/publications/#{{ pub.anchor }}">{{ pub.title }}</a>
     </h3>
