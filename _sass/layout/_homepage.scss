@@ -120,6 +120,15 @@
     margin-bottom: 1.6em;
   }
 
+  .hp-pub.hp-pub--highlight {
+    background: var(--hp-highlight-bg);
+    border: 1px solid var(--hp-highlight-border);
+    border-radius: 8px;
+    padding: 0.9em 1.1em;
+    margin-left: -1.1em;
+    margin-right: -1.1em;
+  }
+
   h3.hp-pub-title {
     font-size: 1.02em;
     font-weight: 700;
