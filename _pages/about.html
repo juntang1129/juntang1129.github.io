@@ -10,16 +10,6 @@ redirect_from:
 
 {% include base_path %}
 
-{% assign banner_until = "2026-04-25" | date: "%Y-%m-%d" %}
-{% assign today = site.time | date: "%Y-%m-%d" %}
-{% if today <= banner_until %}
-<aside class="hp-banner" role="note">
-  <span class="hp-banner-tag">Apr 17 · Now</span>
-  <span class="hp-banner-msg">Welcome from the SignatureWork poster session</span>
-  <a class="hp-banner-cta" href="#minn">Jump to MINN <span aria-hidden="true">↓</span></a>
-</aside>
-{% endif %}
-
 <h1 class="hp-name">Juntang Wang</h1>
 
 <div class="hp-profile">
@@ -56,10 +46,11 @@ redirect_from:
 <div class="hp-section">
   <h2 class="hp-section-heading">News</h2>
   <ul class="hp-news">
+    <li>[May, 2026] <a href="{{ base_path }}/publications/#mixconfig">MixConfig</a> is accepted to ICML 2026.</li>
+    <li>[Apr, 2026] Presented <a href="{{ base_path }}/publications/#minn">MINN</a> at the DKU SignatureWork Symposium 2026; graduating with Distinction.</li>
     <li>[Nov, 2025] <a href="{{ base_path }}/publications/#infantconfig">InfantConfig</a> has been selected for <strong class="hp-pub-award">Oral Presentation</strong> at BICS 2025.</li>
     <li>[Sep, 2025] <a href="{{ base_path }}/publications/#martianclock">MartianClock</a> is accepted to CNS 2025.</li>
     <li>[Jul, 2025] <a href="{{ base_path }}/publications/#lk99">TempLK99</a> is accepted to MC17.</li>
-    <li>[Aug, 2024] TA for <a href="https://scholars.duke.edu/person/xiaobai.sun">Prof. Xiaobai Sun</a>'s <em>CS 521: Matrix/Graph/Network Analysis</em> (<strong class="hp-pub-award">graduate</strong>).</li>
   </ul>
 </div>
 
@@ -134,7 +125,7 @@ redirect_from:
     </div>
     <div class="hp-work-info">
       <strong><a href="https://www.siemens-healthineers.com/">Siemens Healthineers</a></strong><br>
-      Algorithm Engineer, Intern (2026.3 – 2026.5)<br>
+      Data Scientist, Intern (2026.3 – 2026.5)<br>
       Shanghai, China
     </div>
   </div>
