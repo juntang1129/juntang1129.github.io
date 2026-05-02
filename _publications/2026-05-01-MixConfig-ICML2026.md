@@ -8,5 +8,6 @@ citation: '<strong>Juntang Wang</strong><sup>†</sup>, Hao Wu<sup>†</sup>, Yi
 anchor: mixconfig
 paperurl: 'https://arxiv.org/abs/2510.19248'
 featured: true
+highlighted: true
 display_authors: '<strong>Juntang Wang</strong><sup>†</sup>, Hao Wu<sup>†</sup>, Yihan Wang<sup>†</sup>, Dongmian Zou, Shixin Xu'
 ---
