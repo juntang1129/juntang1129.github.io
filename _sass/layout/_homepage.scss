@@ -219,6 +219,19 @@ html { scroll-behavior: smooth; }
     color: var(--global-text-color);
   }
 
+  .hp-pub-venue-short {
+    color: var(--global-text-color);
+  }
+
+  .hp-pub-venue-inline {
+    font-style: italic;
+    opacity: 0.75;
+  }
+
+  .hp-pub-venue-track {
+    color: var(--global-text-color);
+  }
+
   .hp-pub-award {
     color: var(--global-base-color);
   }

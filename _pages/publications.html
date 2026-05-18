@@ -20,8 +20,11 @@ redirect_from:
   <h3 class="hp-pub-title">{{ pub.title }}</h3>
   <p class="hp-pub-authors">{{ pub.display_authors }}</p>
   <p class="hp-pub-venue">
-    <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}
-    {% if pub.award %}<br><strong class="hp-pub-award">{{ pub.award }}</strong>{% endif %}
+    {% if pub.venue_short %}
+      <span class="hp-pub-venue-short">{{ pub.venue_short }} {{ pub.date | date: "%Y" }}</span>{% if pub.venue_inline %} <span class="hp-pub-venue-inline">({{ pub.venue_inline }})</span>{% endif %}{% if pub.track %} · <span class="hp-pub-venue-track">{{ pub.track }}</span>{% endif %}{% if pub.award %} · <strong class="hp-pub-award">{{ pub.award }}</strong>{% endif %}
+    {% else %}
+      <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}{% if pub.award %} · <strong class="hp-pub-award">{{ pub.award }}</strong>{% endif %}
+    {% endif %}
   </p>
   <p class="hp-pub-links">
     {% assign sep = "" %}

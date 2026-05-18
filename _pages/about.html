@@ -24,20 +24,18 @@ redirect_from:
     </p>
   </div>
   <div class="hp-bio-col">
-    <p>Hi there! I am an incoming M.S. in Data Science student at
+    <p>I am an incoming M.S. in Data Science student at
     <a href="https://gsas.harvard.edu/">Harvard University</a>.
-    I am completing my B.S. in Applied Mathematics &amp; Computational Sciences
-    (Computer Science Track) at
-    <a href="https://www.dukekunshan.edu.cn">Duke Kunshan University</a> &amp;
-    <a href="https://duke.edu">Duke University</a> (May 2026),
-    where I am advised by
+    I received my B.S. with Distinction in Applied Math &amp; Comp. Sci. (CS Track) from
+    <a href="https://duke.edu">Duke University</a> &amp;
+    <a href="https://www.dukekunshan.edu.cn">Duke Kunshan University</a>,
+    where I was advised by
     <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/shixin-xu">Prof. Shixin Xu</a> and
     <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/dongmian-zou">Prof. Dongmian Zou</a>.</p>
 
-    <p>I am broadly interested in numerical methods and representation learning,
-    with a particular focus on AI for Science — spanning biomedical applications
-    and photon-electron dynamics. Feel free to reach out if you have shared research
-    interests. I am always open to collaboration and discussions!</p>
+    <p>I work on AI for Science, building graph and spectral methods, generative models,
+    and physics-aware learning for biomedical inference. I am always open to collaboration
+    and discussions. Feel free to reach out.</p>
   </div>
 </div>
 
@@ -46,8 +44,10 @@ redirect_from:
 <div class="hp-section">
   <h2 class="hp-section-heading">News</h2>
   <ul class="hp-news">
+    <li>[May, 2026] <a href="{{ base_path }}/publications/#stageguard">StageGuard</a> is accepted to <strong class="hp-pub-award">KDD 2026</strong> AI for Science Track (Inaugural).</li>
+    <li>[May, 2026] Conferred B.S. with Distinction and <em>cum laude</em> from Duke &amp; DKU.</li>
     <li>[May, 2026] <a href="{{ base_path }}/publications/#mixconfig">MixConfig</a> is accepted to <strong class="hp-pub-award">ICML 2026</strong>.</li>
-    <li>[Apr, 2026] Presented MINN at DKU SignatureWork 2026; graduating with Distinction.</li>
+    <li>[Apr, 2026] Presented MINN at DKU SignatureWork 2026.</li>
     <li>[Nov, 2025] <a href="{{ base_path }}/publications/#infantconfig">InfantConfig</a> has been selected for <strong class="hp-pub-award">Oral Presentation</strong> at BICS 2025.</li>
     <li>[Sep, 2025] <a href="{{ base_path }}/publications/#martianclock">MartianClock</a> is accepted to CNS 2025.</li>
     <li>[Jul, 2025] <a href="{{ base_path }}/publications/#lk99">TempLK99</a> is accepted to MC17.</li>
@@ -67,8 +67,11 @@ redirect_from:
     </h3>
     <p class="hp-pub-authors">{{ pub.display_authors }}</p>
     <p class="hp-pub-venue">
-      <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}
-      {% if pub.award %}<br><strong class="hp-pub-award">{{ pub.award }}</strong>{% endif %}
+      {% if pub.venue_short %}
+        <span class="hp-pub-venue-short">{{ pub.venue_short }} {{ pub.date | date: "%Y" }}</span>{% if pub.venue_inline %} <span class="hp-pub-venue-inline">({{ pub.venue_inline }})</span>{% endif %}{% if pub.track %} · <span class="hp-pub-venue-track">{{ pub.track }}</span>{% endif %}{% if pub.award %} · <strong class="hp-pub-award">{{ pub.award }}</strong>{% endif %}
+      {% else %}
+        <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}{% if pub.award %} · <strong class="hp-pub-award">{{ pub.award }}</strong>{% endif %}
+      {% endif %}
     </p>
     <p class="hp-pub-links">
       {% assign sep = "" %}
@@ -92,7 +95,7 @@ redirect_from:
     </div>
     <div class="hp-edu-info">
       <strong><a href="https://gsas.harvard.edu/">Harvard University</a></strong><br>
-      M.S. in Data Science (2026 – 2027)
+      M.S. in Data Science (2026 – 2028)
     </div>
   </div>
   <div class="hp-edu-row">

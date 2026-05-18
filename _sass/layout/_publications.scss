@@ -6,3 +6,18 @@
 .hp-pub[id] {
   scroll-margin-top: calc(#{$masthead-height} + 1em);
 }
+
+/* Brief highlight when an entry is linked to via #anchor */
+@keyframes hp-pub-target-flash {
+  0%   { background-color: var(--hp-highlight-bg); box-shadow: 0 0 0 6px var(--hp-highlight-bg); }
+  100% { background-color: transparent;            box-shadow: 0 0 0 6px transparent; }
+}
+
+.hp-pub[id]:target {
+  border-radius: 6px;
+  animation: hp-pub-target-flash 2.4s ease-out 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hp-pub[id]:target { animation: none; outline: 2px solid var(--hp-highlight-border); }
+}
