@@ -28,11 +28,11 @@ redirect_from:
   </p>
   <p class="hp-pub-links">
     {% assign sep = "" %}
-    {% if pub.paperurl %}<a href="{{ pub.paperurl }}">paper</a>{% assign sep = " / " %}{% endif %}
-    {% if pub.arxivurl %}{{ sep }}<a href="{{ pub.arxivurl }}">arXiv</a>{% assign sep = " / " %}{% endif %}
+    {% if pub.paperurl %}{{ sep }}<a href="{{ pub.paperurl }}">paper</a>{% assign sep = " / " %}{% endif %}
     {% if pub.posterurl %}{{ sep }}<a href="{{ pub.posterurl }}">poster</a>{% assign sep = " / " %}{% endif %}
     {% if pub.slidesurl %}{{ sep }}<a href="{{ pub.slidesurl }}">slides</a>{% assign sep = " / " %}{% endif %}
-    {% if pub.codeurl %}{{ sep }}<a href="{{ pub.codeurl }}">code</a>{% endif %}
+    {% if pub.codeurl %}{{ sep }}<a href="{{ pub.codeurl }}">code</a>{% assign sep = " / " %}{% endif %}
+    {% if pub.arxivurl %}{{ sep }}<a href="{{ pub.arxivurl }}">arXiv</a>{% assign sep = " / " %}{% endif %}
   </p>
 </div>
 {% endfor %}
