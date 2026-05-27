@@ -19,7 +19,7 @@ redirect_from:
       <a href="{{ base_path }}/files/resume.pdf">CV</a> / <a href="{{ base_path }}/files/resume_zh.pdf">中文简历</a> /
       <a href="https://scholar.google.com/citations?user=iUaLgWwAAAAJ">Google Scholar</a> /
       <a href="https://github.com/qqgjyx">GitHub</a> /
-      <a href="mailto:jw853@duke.edu">Email</a> /
+      <a href="mailto:juntangwang@g.harvard.edu">Email</a> /
       <a href="https://linkedin.com/in/q9gjyx">LinkedIn</a>
     </p>
   </div>
@@ -33,9 +33,9 @@ redirect_from:
     <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/shixin-xu">Prof. Shixin Xu</a> and
     <a href="https://faculty.dukekunshan.edu.cn/faculty_profiles/dongmian-zou">Prof. Dongmian Zou</a>.</p>
 
-    <p>I work on AI for Science, building graph and spectral methods, generative models,
-    and physics-aware learning for biomedical inference. I am always open to collaboration
-    and discussions. Feel free to reach out.</p>
+    <p>I work on <strong>AI for Science</strong> and ML, building graph and spectral methods for
+    biomedical inference. I am always open to collaboration and discussions.
+    Feel free to reach out.</p>
   </div>
 </div>
 
@@ -75,11 +75,11 @@ redirect_from:
     </p>
     <p class="hp-pub-links">
       {% assign sep = "" %}
-      {% if pub.paperurl %}<a href="{{ pub.paperurl }}">paper</a>{% assign sep = " / " %}{% endif %}
-      {% if pub.arxivurl %}{{ sep }}<a href="{{ pub.arxivurl }}">arXiv</a>{% assign sep = " / " %}{% endif %}
+      {% if pub.paperurl %}{{ sep }}<a href="{{ pub.paperurl }}">paper</a>{% assign sep = " / " %}{% endif %}
       {% if pub.posterurl %}{{ sep }}<a href="{{ pub.posterurl }}">poster</a>{% assign sep = " / " %}{% endif %}
       {% if pub.slidesurl %}{{ sep }}<a href="{{ pub.slidesurl }}">slides</a>{% assign sep = " / " %}{% endif %}
-      {% if pub.codeurl %}{{ sep }}<a href="{{ pub.codeurl }}">code</a>{% endif %}
+      {% if pub.codeurl %}{{ sep }}<a href="{{ pub.codeurl }}">code</a>{% assign sep = " / " %}{% endif %}
+      {% if pub.arxivurl %}{{ sep }}<a href="{{ pub.arxivurl }}">arXiv</a>{% assign sep = " / " %}{% endif %}
     </p>
   </div>
   {% endfor %}
@@ -95,16 +95,18 @@ redirect_from:
     </div>
     <div class="hp-edu-info">
       <strong><a href="https://gsas.harvard.edu/">Harvard University</a></strong><br>
-      M.S. in Data Science (2026 – 2028)
+      M.S. in Data Science (2026 – 2028)<br>
+      Cambridge, MA
     </div>
   </div>
   <div class="hp-edu-row">
     <div class="hp-edu-logo">
-      <img src="{{ base_path }}/images/edu/duke-logo.png" alt="Duke University Logo">
+      <img src="{{ base_path }}/images/edu/duke-logo.jpg" alt="Duke University Logo">
     </div>
     <div class="hp-edu-info">
       <strong><a href="https://duke.edu">Duke University</a></strong><br>
-      B.S. in Interdisciplinary Studies (Math &amp; CS) (2022 – 2026)
+      B.S. in Interdisciplinary Studies (Math &amp; CS) (2022 – 2026)<br>
+      Durham, NC
     </div>
   </div>
   <div class="hp-edu-row">
@@ -113,7 +115,8 @@ redirect_from:
     </div>
     <div class="hp-edu-info">
       <strong><a href="https://www.dukekunshan.edu.cn">Duke Kunshan University</a></strong><br>
-      B.S. in Applied Math &amp; Computational Science, CS Track (2022 – 2026)
+      B.S. in Applied Math &amp; Computational Science, CS Track (2022 – 2026)<br>
+      Kunshan, China
     </div>
   </div>
 </div>
@@ -124,7 +127,17 @@ redirect_from:
   <h2 class="hp-section-heading">Work Experience</h2>
   <div class="hp-work-row">
     <div class="hp-work-logo">
-      <img src="{{ base_path }}/images/work/siemens-logo.png" alt="Siemens Healthineers Logo">
+      <div class="hp-logo-placeholder"></div>
+    </div>
+    <div class="hp-work-info">
+      <strong>Dahan Intelligent</strong><br>
+      Quantitative Researcher, Intern (2026.5 – present)<br>
+      Beijing, China
+    </div>
+  </div>
+  <div class="hp-work-row">
+    <div class="hp-work-logo">
+      <img src="{{ base_path }}/images/work/siemens-logo.svg" alt="Siemens Healthineers Logo">
     </div>
     <div class="hp-work-info">
       <strong><a href="https://www.siemens-healthineers.com/">Siemens Healthineers</a></strong><br>
@@ -150,7 +163,7 @@ redirect_from:
   <h2 class="hp-section-heading">Miscellanea</h2>
   <ul class="hp-list">
     <li>My Chinese name (surname first) is 王俊棠.</li>
-    <li>I am from Kunshan, Jiangsu Province in China.</li>
+    <li>I am from Kunshan, China.</li>
   </ul>
 </div>
 
