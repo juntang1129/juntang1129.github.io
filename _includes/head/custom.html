@@ -5,11 +5,21 @@
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- Favicon -->
+<!-- Favicon (JT monogram; SVG is dark-mode aware) -->
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg">
 <link rel="icon" href="{{ base_path }}/images/favicon.ico" sizes="32x32">
-<link rel="apple-touch-icon" href="{{ base_path }}/images/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" href="{{ base_path }}/images/apple-touch-icon.png">
 <link rel="manifest" href="{{ base_path }}/images/manifest.json">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#252a34" media="(prefers-color-scheme: dark)">
+
+<!-- Default social-share card (1200x630). Pages with header.image override via seo.html. -->
+{% unless page.header.image %}
+<meta property="og:image" content="{{ '/images/og-card.png' | prepend: site.url }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ '/images/og-card.png' | prepend: site.url }}">
+{% endunless %}
 
 <!-- end custom head snippets -->
