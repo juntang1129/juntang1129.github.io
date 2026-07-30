@@ -12,6 +12,6 @@ arxivurl: 'https://arxiv.org/abs/2510.19248'
 posterurl: 'https://icml.cc/virtual/2026/poster/63010'
 codeurl: 'https://github.com/Q9gJYx/MixConfig'
 featured: true
-highlighted: true
+highlighted: false
 display_authors: '<strong>Juntang Wang</strong><sup>†</sup>, Hao Wu<sup>†</sup>, Yihan Wang<sup>†</sup>, Dongmian Zou, Shixin Xu'
 ---
