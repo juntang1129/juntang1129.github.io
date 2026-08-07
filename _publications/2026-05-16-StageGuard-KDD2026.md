@@ -6,9 +6,9 @@ date: 2026-05-16
 venue: 'ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) — AI for Science Track (Inaugural)'
 venue_short: 'KDD'
 track: 'AI for Science Track (Inaugural)'
-citation: '<strong>Juntang Wang</strong><sup>†</sup>, Yihan Wang<sup>†</sup>, Hao Wu<sup>†</sup>, Jiayu Gao, Shixin Xu, and Dongmian Zou. (2026). &quot;StageGuard: Physiologically Constrained Sleep Staging.&quot; <i>KDD 2026 AI for Science Track (Inaugural)</i>. <a href="https://openreview.net/forum?id=LEwjtvV1VK">OpenReview</a>'
+citation: '<strong>Juntang Wang</strong><sup>†</sup>, Yihan Wang<sup>†</sup>, Hao Wu<sup>†</sup>, Jiayu Gao, Shixin Xu, and Dongmian Zou. (2026). &quot;StageGuard: Physiologically Constrained Sleep Staging.&quot; <i>KDD 2026 AI for Science Track (Inaugural)</i>. <a href="https://doi.org/10.1145/3770855.3818916">ACM DL</a>'
 anchor: stageguard
-paperurl: 'https://openreview.net/forum?id=LEwjtvV1VK'
+paperurl: 'https://doi.org/10.1145/3770855.3818916'
 arxivurl: 'https://arxiv.org/abs/2607.23284'
 posterurl: '/files/p03-KDD2026-StageGuard-poster.pdf'
 codeurl: 'https://github.com/Q9gJYx/StageGuard'
