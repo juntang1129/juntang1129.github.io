@@ -280,11 +280,11 @@ html { scroll-behavior: smooth; }
   }
 
   /* --- Logo placeholder (work + education) --- */
+  /* Matches the real logo box exactly so a missing logo does not shift the
+     text column relative to its neighbours. */
   .hp-logo-placeholder {
-    width: 65%;
-    max-width: 90px;
+    width: 56px;
     height: 56px;
-    margin: 0 auto;
     background-color: var(--global-border-color);
     border-radius: 6px;
     opacity: 0.5;
@@ -328,17 +328,24 @@ html { scroll-behavior: smooth; }
       text-align: left;
     }
 
+    /* Stay side by side: logo pinned left, text block right. Stacking the
+       logo above the text made each entry read as two unrelated fragments
+       and left the logos on a ragged edge. */
     .hp-edu-row,
     .hp-work-row {
-      flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
+      gap: 14px;
     }
 
     .hp-edu-logo,
     .hp-work-logo {
-      flex: none;
-      margin-bottom: 0.4em;
+      flex: 0 0 48px;
       img { width: 48px; height: 48px; }
+    }
+
+    .hp-logo-placeholder {
+      width: 48px;
+      height: 48px;
     }
   }
 }
